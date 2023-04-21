@@ -1,0 +1,194 @@
+/* #region reset css*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* #endregion */
+
+body {
+  line-height: 1;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #9ae9e2;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #0a585a;
+}
+
+.page-wrapper {
+  height: 100vh;
+
+  background-color: #1b1f1f;
+  display: flex;
+  align-items: center;
+}
+
+.list-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 200px;
+}
+
+.list-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 1000px;
+  height: 98%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #549f99;
+  border: 1px solid #ea5700;
+  border-radius: 3px;
+}
+
+.container ul {
+  width: 200px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.container ul li {
+  text-decoration: none;
+  margin-bottom: 10px;
+  font: 25px Helvetica;
+
+  border-bottom: #999;
+}
+
+.target-elems-wrapper {
+  position: absolute;
+  border-radius: 3px;
+  top: 200px;
+  bottom: 0;
+  left: 200px;
+  height: 400px;
+  width: 300px;
+  border: 1px solid rgba(215, 249, 250, 0.178);
+}
