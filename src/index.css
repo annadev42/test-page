@@ -133,7 +133,8 @@ h1 {
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 20px;
-  color: #0a585a;
+  text-transform: uppercase;
+  color: #646b6b;
 }
 
 .page-wrapper {
@@ -163,23 +164,18 @@ h1 {
   height: 98%;
   margin: 0 auto;
   padding: 30px;
-  background-color: #549f99;
+  background-color: #fff;
   border: 1px solid #ea5700;
   border-radius: 3px;
 }
 
-.container ul {
+.list-box-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 200px;
   list-style-type: none;
   padding: 0;
-}
-
-.container ul li {
-  text-decoration: none;
-  margin-bottom: 10px;
-  font: 25px Helvetica;
-
-  border-bottom: #999;
 }
 
 .target-elems-wrapper {
