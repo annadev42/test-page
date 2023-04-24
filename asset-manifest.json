@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/test-page/static/css/main.a1847d84.css",
-    "main.js": "/test-page/static/js/main.05f4c8ef.js",
+    "main.css": "/test-page/static/css/main.98dc5bfe.css",
+    "main.js": "/test-page/static/js/main.f62247bc.js",
     "static/media/galya.jpeg": "/test-page/static/media/galya.35a1061ff51cfeabd382.jpeg",
     "static/media/unicorn.png": "/test-page/static/media/unicorn.8af4f843fe7d203d4c91.png",
+    "static/media/human-body.png": "/test-page/static/media/human-body.139100c9c14fbd23dcd3.png",
     "static/media/pedro.jpg": "/test-page/static/media/pedro.f155dcf56f2c5cc94674.jpg",
+    "static/media/brains.png": "/test-page/static/media/brains.16261f3ecdb7762bc333.png",
+    "static/media/heart.png": "/test-page/static/media/heart.44544bcfb1ca3f121190.png",
+    "static/media/blood-vessel.png": "/test-page/static/media/blood-vessel.64d5b0570fb07f78c6d5.png",
+    "static/media/liver.png": "/test-page/static/media/liver.299b17ed6795734fafd7.png",
     "static/media/heart_3.png": "/test-page/static/media/heart_3.f7600996d0a2975893b3.png",
     "index.html": "/test-page/index.html",
-    "main.a1847d84.css.map": "/test-page/static/css/main.a1847d84.css.map",
-    "main.05f4c8ef.js.map": "/test-page/static/js/main.05f4c8ef.js.map"
+    "main.98dc5bfe.css.map": "/test-page/static/css/main.98dc5bfe.css.map",
+    "main.f62247bc.js.map": "/test-page/static/js/main.f62247bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1847d84.css",
-    "static/js/main.05f4c8ef.js"
+    "static/css/main.98dc5bfe.css",
+    "static/js/main.f62247bc.js"
   ]
 }
