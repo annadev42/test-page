@@ -2,10 +2,10 @@ import styled, { css } from "styled-components";
 import { BaseElem } from "./BaseElem";
 
 const TargetDiv = styled(BaseElem)`
-  top: ${({ top }) => top + "px"};
-  bottom: ${({ bottom }) => bottom + "px"};
-  right: ${({ right }) => right + "px"};
-  left: ${({ left }) => left + "px"};
+  top: ${({ top }) => top + "%"};
+  bottom: ${({ bottom }) => bottom + "%"};
+  right: ${({ right }) => right + "%"};
+  left: ${({ left }) => left + "%"};
   background: url(${({ image }) => image}) center no-repeat;
   background-size: 60%;
   -webkit-filter: ${({ color }) => `drop-shadow(0px 4px 2px ${color}50)`};
@@ -21,7 +21,10 @@ const TargetDiv = styled(BaseElem)`
     background: ${({ color }) => color};
     border-radius: 50%;
     opacity: 1;
-    transition: all 200ms ease-out;
+    transition: 200ms ease-out;
+    transition-property: background-color, background-image, width, height,
+      border-radius, opacity, transform;
+    transition-delay: 200ms;
   }
 
   ${({ hovered }) =>
@@ -37,10 +40,10 @@ const TargetDiv = styled(BaseElem)`
 
 const BoxShadowWrapper = styled.div`
   position: absolute;
-  top: ${({ top }) => top + "px"};
-  bottom: ${({ bottom }) => bottom + "px"};
-  right: ${({ right }) => right + "px"};
-  left: ${({ left }) => left + "px"};
+  top: ${({ top }) => top + "%"};
+  bottom: ${({ bottom }) => bottom + "%"};
+  right: ${({ right }) => right + "%"};
+  left: ${({ left }) => left + "%"};
   width: 20px;
   height: 20px;
   border-radius: 50%;

@@ -1,4 +1,4 @@
-import styled, { css, keyframes } from "styled-components";
+import styled, { css } from "styled-components";
 
 export const BaseElem = styled.div`
   position: absolute;
@@ -7,7 +7,10 @@ export const BaseElem = styled.div`
   height: 20px;
   border-radius: 50%;
   background-color: transparent;
-  transition: all 200ms linear;
+  transition: 200ms ease-out;
+  transition-property: background-color, background-image, width, height,
+    border-radius, transform;
+  transition-delay: 200ms;
 
   ${(props) =>
     props.hovered &&
