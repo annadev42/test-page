@@ -65,7 +65,7 @@ function App() {
                   return (
                     <Elem
                       key={item.id}
-                      hovered={item.id === activeElem ? hovered : undefined}
+                      hovered={item.id === activeElem && hovered}
                       color={item.color}
                       top={item.top}
                       bottom={item.bottom}
@@ -81,20 +81,18 @@ function App() {
 
         <div className="right">
           <div className="list-wrapper">
-            <div className="list-box">
-              <div className="list-box-items">
-                {elems &&
-                  elems.map((item) => (
-                    <ListItem
-                      key={item.id}
-                      color={item.color}
-                      onMouseOver={() => handleMouseOver(item.id)}
-                      onMouseLeave={() => handleMouseLeaave(item.id)}
-                    >
-                      <span>{item.name}</span>
-                    </ListItem>
-                  ))}
-              </div>
+            <div className="list-box-items">
+              {elems &&
+                elems.map((item) => (
+                  <ListItem
+                    key={item.id}
+                    color={item.color}
+                    onMouseOver={() => handleMouseOver(item.id)}
+                    onMouseLeave={() => handleMouseLeaave(item.id)}
+                  >
+                    {item.name}
+                  </ListItem>
+                ))}
             </div>
           </div>
         </div>
