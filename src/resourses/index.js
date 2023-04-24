@@ -1,0 +1,9 @@
+export { default as heart3 } from "./images/heart_3.png";
+export { default as galya } from "./images/galya.jpeg";
+export { default as pedro } from "./images/pedro.jpg";
+export { default as unicorn } from "./images/unicorn.png";
+export { default as body } from "./images/human-body.png";
+export { default as heart } from "./images/heart.png";
+export { default as liver } from "./images/liver.png";
+export { default as brains } from "./images/brains.png";
+export { default as blood } from "./images/blood-vessel.png";
